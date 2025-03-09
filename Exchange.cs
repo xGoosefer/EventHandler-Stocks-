@@ -15,8 +15,10 @@ namespace EventHandler_Stocks_
         {
             new Stock("PROG"),
             new Stock("C0D3"),
-
-            new Stock("BYTE")
+            new Stock("BYTE"),
+            new Stock("JPDR"),
+            new Stock("CBRP"),
+            new Stock("RELR")
         };
         public void Open()
         {

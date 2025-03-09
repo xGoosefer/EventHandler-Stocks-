@@ -45,7 +45,7 @@ namespace EventHandler_Stocks_
         public void stock_PriceChanged(object sender, PriceChangedEventArgs e)
         {
             if (e.LastPrice != e.NewPrice)
-                Print($"{Symbol} price has changed. Previous price was {e.LastPrice}, new price is {e.NewPrice}. The difference is {e.LastPrice - e.NewPrice}.");
+                Print($"{Symbol} price has changed from {e.LastPrice} to {e.NewPrice}! The difference is {e.NewPrice - e.LastPrice}.");
         }
 
         public class PriceChangedEventArgs : EventArgs
