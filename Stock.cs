@@ -23,7 +23,7 @@ namespace EventHandler_Stocks_
 
         public void PriceFluctuation()
         {
-            if (GetRandomInteger(2) == 1)
+            if (GetRandomInteger(4) != 1)
                 Price = Price + GetRandomInteger(-10, 10);
         }
 
